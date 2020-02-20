@@ -1,0 +1,197 @@
+@font-face {
+    font-family: Arimo;
+    src: url("../fonts/Arimo-Regular.ttf");
+}
+@font-face {
+    font-family: Arimo-Bold;
+    src: url("../fonts/Arimo-Bold.ttf");
+}
+.full-page{
+    background:#3a4965;
+    height: 100vh;
+    text-transform: uppercase;
+}
+table{
+    margin: 0 auto;
+    background-color: #eeeeee;
+    border-collapse: collapse;
+    text-align: center;
+    color: #484848;
+}
+thead{
+    font-family: Arimo-Bold;
+}
+tbody{
+    font-family: Arimo;
+}
+tfoot{
+    font-family: Arimo-Bold;
+}
+.fh1{
+    height: 156px;
+    width: 310px;
+    background:#fafafa;
+    position: relative;
+}
+.choose{
+    position: absolute;
+    font-size: 21px;
+    top: 52px;
+    left: 79px;
+
+}
+.plan{
+    display: block;
+    padding-top:10px;
+    font-size: 30px;
+    margin-top: 8px;
+}
+.fh2{
+    height: 70px;
+    width: 277px;
+    background:#89c331;
+    color:white;
+    font-size:24px;
+    font-family: 'arino-bold', sans-serif;
+}
+.fh3{
+    height: 70px;
+    width: 279px;
+    background:#f04a56;
+    color:white;
+    font-size: 30px;
+    font-family: 'arino-bold', sans-serif
+}
+.fh4{
+    height: 70px;
+    width: 277px;
+    background:#20807c;
+    color:white;
+    font-size: 24px;
+    font-family: 'arino-bold', sans-serif;
+}
+.second-head{
+    background:#fafafa;
+}
+.price{
+    font-size: 60px;
+    position: relative;
+    text-align: left;
+    padding-left:30px;
+    font-family: 'arino-bold', sans-serif;
+}
+.price span{
+    font-size: 18px;
+    position: absolute;
+    right: 30px;
+    bottom:20px;
+}
+.price p{
+    display:inline-block;
+    font-size: 24px;
+    position: absolute;
+    margin: 0;
+    top:17px;
+    left:132px;
+    font-family: 'arino-bold', sans-serif;
+}
+.line1{
+    background:#f2f2f2;
+    height: 69px;
+    font-size: 16px;
+    color: #484848;
+}
+.line2{
+    background:#e3e3e3;
+    height: 69px;
+    font-size: 16px;
+}
+.line3{
+    background:#f2f2f2;
+    height: 69px;
+    font-size: 16px;
+}
+.line4{
+    background:#e3e3e3;
+    height: 69px;
+    font-size: 16px;
+}
+.line5{
+    background:#f2f2f2;
+    height: 69px;
+    font-size: 16px;
+}
+.line6{
+    background:#e3e3e3;
+    height: 69px;
+    font-size: 16px;
+}
+.fa{
+    color:#848484;
+    font-size:24pt;
+    padding-right: 12px;
+}
+.second-head td:nth-child(1),
+.second-head td:nth-child(n+1),
+.first-head  td:nth-child(n+1),
+.fh1 td:nth-child(1),
+.fh1 td:nth-child(n+1),
+.fh2 td:nth-child(1),
+.fh3 td:nth-child(n+1),
+.fh4 td:nth-child(n+1),
+.line1 td:nth-child(n+1),
+.line2 td:nth-child(n+1),
+.line3 td:nth-child(n+1),
+.line4 td:nth-child(n+1),
+.line5 td:nth-child(n+1),
+.line6 td:nth-child(n+1),
+.foot td:nth-child(1),
+.foot td:nth-child(n+1){
+    box-shadow:inset -3px 0 3px -2px #bababa;
+}
+.foot{
+    background:#eeeeee;
+    height: 110px;
+    font-size: 16px;
+}
+.foot11{
+    background:#dddddd;
+}
+.foot2{
+    background:#f4f4f4;
+}
+tfoot button{
+    width: 192px;
+    height: 49px;
+    color:white;
+    border-radius:7px;
+    /*box-shadow:inset 0 -20px 0 -14px rgba(0,0,0,0.3);*/
+}
+.foot1 button{
+    background:#484848;
+}
+.foot1 button:hover{
+    background: #272727;
+    transition: 0.3s;
+}
+.foot2 button{
+    background: #92cc31;
+}
+.foot2 button:hover{
+    background: #203707;
+    transition: 0.3s;
+}
+.foot3 button{
+    background:#f04a56;
+}
+.foot3 button:hover{
+    background: #532525;
+    transition: 0.3s;
+}
+.foot4 button{
+    background:#20807c;
+}
+.foot4 button:hover{
+    background: #093a39;
+    transition: 0.3s;
+}
